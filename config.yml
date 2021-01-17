@@ -1,0 +1,35 @@
+#登陆相关配置
+login:
+  #开放的模拟登陆api服务器地址
+  api: "http://www.zimo.wiki:8080/wisedu-unified-login-api-v1.0/api/login"
+#用户组配置
+users:
+  #单个用户配置
+  - user:
+      #username 学号或者工号
+      username: 'yourID'
+      #password 密码
+      password: 'password'
+      #address 地址，定位信息
+      address: 
+      #KEY Qmsg的KEY
+      key: 
+      #school 学校全称
+      school: 长春理工大学
+      #lon 当前位置经度，可以访问http://zuobiao.ay800.com/s/27/index.php获取
+      lon: 
+      #lat 纬度
+      lat: 
+#今日校园相关配置
+cpdaily:
+  #表单组默认选项配置
+  #适用于长春理工大学计算机科学技术学院18级
+  defaults:
+    #表单默认选项配置，按顺序，注意，只有标必填项的才处理，不会配置就执行generate.py
+    - default:
+        title: 身体是否有发热、咳嗽、发力、呼吸困难等症状
+        type: 2
+        value: 否，无以上症状
+
+Info:
+  Qsmg: # 填写Qsmg酱的SCKEY
