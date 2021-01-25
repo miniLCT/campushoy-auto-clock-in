@@ -11,7 +11,7 @@
 > git clone https://github.com/miniLCT/campushoy-auto-clock-in.git
 
 ## 配置
-编辑cofig.yml,编辑以下内容
+编辑cofig.yml,根据需要收集的信息编辑以下内容。
 
 > 1.#username 学号或者工号
 填写今日校园学号
